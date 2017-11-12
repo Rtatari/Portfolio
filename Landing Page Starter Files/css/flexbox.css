@@ -1,0 +1,14 @@
+/* Flexbox.css for layout things */
+*, *::after, *::before {
+box-sizing: border-box;
+}
+
+.box {
+  /* The first line will tell the old browsers to set to flexbox default,
+  second line will overright if newer version is available*/
+  display: -ms-flex;
+  display: flex;
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}

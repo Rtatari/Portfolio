@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web|Lora');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	/*background-color: #0087be;*/
+
+}
+body {margin:0;}
+ul {
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+		margin-right: 150px;
+		font-family: 'Lora', serif;
+		color: #65899d;
+}
+
+li a:hover:not(.active) {
+    color: #000;
+}
+
+/*.container{
+	display: flex;
+	flex-direction: row;
+}*/
+
+.intro{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+
+}
+
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+	border: solid#000;
+
+}
+
+.content{
+	max-width: none;
+	margin: 100px 150px;
+	padding-bottom: 20%;
+	border: solid#eee;
+}
+
+.hi {
+	max-width: 700px;
+	border: solid#bbb;
+
+}
+
+
+
+.content-P02{
+	max-width: 900px;
+	margin: 10em;
+	padding-bottom: 20%;
+}
+.content h1{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 400%;
+}
+
+.content-P01{
+	max-width: none;
+	margin: 10em;
+	padding-bottom: 20%;
+}
+
+.btn{
+	font-family: 'Lora', serif;
+	font-size: 200%;
+	color: #65899d;
+	float: left;
+	text-decoration: none;
+	border: solid#65899d;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all 0.5s;
+}
+.btn:hover{
+	color:#000;
+	border: solid#000;
+}
+
+.bio{
+	font-family: 'Istok Web', sans-serif;
+	font-size: 150%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+	transition: all 0.5s;
+
+}
+
+.bio a {
+	color: #65899d;
+	text-decoration: none;
+}
+
+.bio a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.photoDetail {
+	float:left;
+	/*padding-left: 50px;*/
+	margin-right: 50px;
+	height:400px;
+	width:200px;
+	margin-bottom: 40px;
+	border: solid#65899d;
+
+}
+.photoDetail-P02{
+	float:left;
+	margin-right: 50px;
+	height:450px;
+	width:700px;
+}
+
+.photoDetail-P01{
+	float: left;
+	padding-left: 100px;
+	/*padding-left: 100px;*/
+	height: 1000px;
+	width: 800px;
+}
+.photoDetail-personas{
+	float: left;
+	margin-right: 3px;
+	height: 500px;
+	width: 330px;
+}
+.photoDetail-persona{
+	float: left;
+	padding-left: 100px;
+	height: 350px;
+	width: 350px;
+}
+.photoDetail-ethno{
+	float: left;
+	height: 1500px;
+	width: 1000px;
+}
+.photoDetail-process{
+	float: left;
+	padding-left: 100px;
+	height: 600px;
+	width: 800px;
+}
+
+.textDetail{
+	float: right;
+	max-width: 300px;
+	padding-top: 90px;
+	/*border: solid#6bc4a7;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all 0.5s;*/
+	height: 400px;
+	transition: all 0.5s;
+	border: #eee;
+}
+
+
+.textDetail-P01 {
+	float: left;
+	/*margin-bottom: 100px;*/
+	width: 900px;
+	height: auto;
+
+}
+.textDetail-P01 p{
+	font-family: 'Lora', serif;
+	line-height: 200%;
+	font-size: 100%;
+	padding-left: 100px;
+	color: #000;
+}
+
+.textDetail-P01 h2{
+	font-family: 'Istok Web', sans-serif;
+	color: #65899d;
+}
+
+.textDetail-P02{
+	width: 300px;
+	float: right;
+	/*border: solid#6bc4a7;
+	padding: 10px 20px;
+	border-radius: 9px;
+	transition: all 0.5s;*/
+	height: 400px;
+}
+
+.textDetail-P02 h2 {
+	 font-family: 'Istok Web', sans-serif;
+	 font-size: 200%;
+}
+
+
+.textDetail-P02 a{
+	font-family: 'Lora', serif;
+	font-size: 100%;
+	max-width: 100%;
+	line-height: 200%;
+	text-decoration: none;
+	color: #65899d;
+}
+.textDetail-P02 a:hover{
+	color:#000;
+	transition: all 0.5s;
+}
+
+
+.textDetail a {
+	 font-family: 'Istok Web', sans-serif;
+	 font-size: 200%;
+	 color: #65899d;
+
+}
+
+
+.textDetail p{
+	font-family: 'Lora', serif;
+	font-size: 100%;
+	max-width: 100%;
+	line-height: 200%;
+	/*text-decoration: none;*/
+	border: #eee;
+}
+.textDetail a:hover{
+	color:#000;
+	transition: all 0.5s;
+}
+
+
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 480px) {
+
+}
